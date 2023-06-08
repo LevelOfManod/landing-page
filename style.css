@@ -554,6 +554,11 @@ br.none2{
 		width: 90%;
 		margin: 0 auto;
 	}
+	.btn-box{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 32px;
+	}
 }
 /************** Fin de la deuxième section *****************/
 /***********************************************************/
@@ -568,8 +573,7 @@ br.none2{
 	background: url('img/background-img-palmier.png') no-repeat left;
 	background-size: cover;
 	padding: 118px 0; 
-	
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 }
 .background-palmier h2{
 	margin-bottom: 16px;
@@ -664,6 +668,9 @@ br.none2{
 	.lottie:not(.image){
 		width: 70%;
 	}
+	.background-palmier {
+		background-position-x: -400px;
+	}
 }
 /************** Fin palmier ********************************/
 /***********************************************************/
@@ -741,7 +748,7 @@ br.none2{
 }
 @media screen and (max-width: 480px){
 	.sec-3{
-		padding-bottom: 60px;
+		padding-bottom: 32px;
 	}
 	.sec-3 div{
 		width: 100%;
@@ -853,10 +860,10 @@ br.none2{
 	color: #fff;
 }
 .sec-5 h2{
-	margin-bottom: 4px;
+	margin-bottom: 24px;
 }
 .sec-5 p{
-	margin-bottom: 16px;
+	margin-bottom: 24px;
 }
 @media screen and (max-width: 1120px){
 	.sec-5 div{
@@ -927,13 +934,13 @@ footer{
 	.d-1 div:last-child {
 	    margin-left: 0;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: start;
 	}
-}
-@media screen and (max-width: 480px){
 	footer p{
 		text-align: left;
 	}
+}
+@media screen and (max-width: 480px){
 	.d-1 div:last-child {
 		justify-content: start;
 	}
